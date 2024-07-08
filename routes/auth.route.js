@@ -8,3 +8,10 @@ authRoute.post("/login", login);
 authRoute.post("/logout", logout);
 
 export default authRoute;
+
+
+
+
+
+
+
