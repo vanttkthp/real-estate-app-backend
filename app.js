@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 // Middleware to parse URL-encoded bodies
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use("/api/post", postRoute);
+app.use("/api/posts", postRoute);
 app.use("/api/auth", authRoute);
 app.use("/api/test", testRoute);
 app.use("/api/users", userRoute);
